@@ -1,0 +1,16 @@
+.navbar{
+  background-color: #2c3e50 !important;
+  transition: all .5s;
+  
+}
+a{
+    color: #fff !important;
+}
+.active{
+    background-color: #1abc9c;
+    padding-inline:  20px; 
+    border-radius: 9px;
+}
+.fw{
+font-weight: 700;
+}
