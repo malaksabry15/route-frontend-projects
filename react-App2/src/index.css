@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "flowbite/src/themes/default";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.active{
+    @apply text-red-500
+}
+
+/* Flowbite plugin */
+@plugin "flowbite/plugin";
+
+/* Tell Tailwind where Flowbite files are */
+@source "../node_modules/flowbite";
+
+
+.pacifico-regular {
+    
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
