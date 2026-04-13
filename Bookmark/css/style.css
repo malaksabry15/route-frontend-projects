@@ -1,0 +1,147 @@
+body{
+    background-color: #f7ecde;
+    position: relative;
+    
+}
+body::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: .3;
+    display: none;
+}
+body.layer::before{
+    display: block;
+}
+::selection{
+    background-color: #fec260;
+}
+h1{
+    position: relative;
+    width: fit-content;
+    font-family: "Pacifico", cursive;
+    margin: auto;
+    color: #352e28;
+    font-size: 50px;
+    
+   
+}
+h1::before{
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    height: 25%;
+    background-color: #fec260;
+    bottom: 10px;
+    transition: all .5s;
+}
+h1:hover:before{
+height: 50%;
+}
+.bookmark{
+    border-block: 2px dotted ;
+}
+h2{
+    font-family: "Righteous";
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2::selection{
+    -webkit-text-fill-color: black;
+    background-color:#fec260 ;
+}
+
+
+
+
+label{
+    font-weight: 600;
+    font-family: "PT Sans Caption", sans-serif;
+}
+input.form-control:focus{
+    border-color: #d99c39;
+    box-shadow: 0 0 0 0.25rem #fec26055;
+}
+button#submit{
+    background-color: #d1512d;
+    color: #fff;
+    transition: all .3s;
+}
+button#submit:hover{
+background-color: #bb4120;
+}
+
+tr{
+    border-bottom: 1px solid rgb(214, 207, 207);
+}
+#visitbtn{
+    background-color: #9eb23b;
+    transition: all .3s;
+}
+#deletebtn{
+    background-color: #eb1d36;
+    transition: all .3s;
+}
+
+#deletebtn:hover,#visitbtn:hover{
+    background-color: #bb4120;
+}
+ 
+
+
+.alert{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-35%);
+    width: 500px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+}
+.circles span{
+    width: 20px;
+    height: 20px;
+    display: block;
+
+    
+}
+.circles .circle1{
+    background-color: #f15f5d;
+}
+.circles .circle2{
+    background-color: #febe2e;
+}
+.circles .circle3{
+    background-color: #4db748;}
+.box button{
+    background-color: transparent;
+    padding:10px ;
+    border-radius: 10px;
+    transition: all .5s;
+}
+.box button:hover{
+background-color: #d1512d;
+
+}
+.alert .text i{
+    color: #bb4120;
+}
+.alert .text p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "PT Sans Caption", sans-serif;
+}
+.alert .text p:first-child{
+    font-family: "Bree Serif", serif;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 1.3;
+    color: #352e28;
+}

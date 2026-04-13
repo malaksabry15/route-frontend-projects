@@ -1,0 +1,304 @@
+body{
+    margin: 0;
+    color: white;
+    font-family: "Alegreya";
+}
+  
+
+.section1 {
+  background-image: url('../images/drew-coffman-1872.jpg');
+  width: 98.7vw;   
+  height: 110vh;     
+  background-size: cover;  
+  background-position: center;
+  text-align: center; 
+} 
+.navbar{
+  padding: 10px 20px;
+   
+}
+
+ .navbar li{
+    display: inline-block;
+    
+}
+ .navbar a{
+   color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+.navbar ul{
+     display: inline-block;
+  vertical-align: middle;
+  
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  margin-left: 450px;
+    
+      
+}
+.section1 a:hover{
+    color: #8e7754;
+}
+
+.section1 img{
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+    margin-left: 10px;
+    padding-left: 20px;
+
+    
+}
+
+.section1-2{
+    display:inline-block ;
+    width: 700px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 60px;
+    margin-top: 60px;
+    
+    
+ }
+ button{
+    padding: 15px;
+    border-radius: 5px;
+    border-color: aliceblue;
+    color: aliceblue;
+    background: none;
+    font-weight: bold;
+ }
+ .button1{
+        background-color: #8e7754;
+        border-color: #8e7754;
+        font-size: 14;
+        
+ }
+ button:hover{
+    background-color: aliceblue;
+    border: aliceblue;
+    color: #000; 
+ }
+
+ .section1 .border{
+   width: 30px;
+   height: 50px;
+   border: 2px solid;
+   border-radius: 50%;
+   color: #fff;
+   
+   margin: 10px auto;
+   
+ }
+.section2{
+    padding: 50px;
+ }
+.section2 .image{
+    display:inline-block;
+    width: 50%;
+    vertical-align: middle;
+    
+ }
+
+ .section2-2
+ {
+    display: inline-block;
+    
+    width: 45%;
+    font-family: "Alegreya Sans"; 
+    font-size: 17px;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 20px;
+    font-weight: 400;
+    color: #686868;
+    
+ }
+ .section2-2 h2{
+    padding-bottom: 30px;
+    color: #000;
+ }
+.section2-2 .icon img{
+   width:40px;
+}
+ .section2-2 .icon{
+   display: inline-block;
+   vertical-align: middle;
+   border: 1px solid rgba(0, 0, 0, .15);
+   border-radius: 75%;
+   padding: 5px;
+   margin-right: 20px;
+  
+   
+ }
+
+
+ .clear{
+   clear: both;
+ }
+.section4{
+    color: #000;
+    text-align: center;
+    padding: 20px 10px 50px;
+    margin-top: 30px;
+    font-family: "Alegreya Sans";
+    font-size: 20px;
+
+ }
+
+ .section4-1{
+    float: left;
+    width: 30%;
+    padding: 40px 20px;
+ }
+ .section4 p{
+    color: #686868;
+    line-height: 30px;
+    font-weight: 400;
+ }
+.section5{
+  background-color:#f8f8f8;
+  
+}
+
+ .section5-1 .icon img{
+   width:40px;
+   
+   
+}
+ .section5-1 .icon{
+   display: inline-block;
+   background-color: #8e7754;
+   vertical-align: middle;
+   border: 1px solid rgba(0, 0, 0, .15);
+   border-radius: 100%;
+   padding:5px;
+   margin-right: 5px;
+  
+   
+ }
+.section5-1{
+   width:45%;
+   float: left;
+   color: #686868;
+   font-family: "Alegreya Sans";
+   font-size: 17px;
+   padding-left: 50px;
+   margin-top: 30px;
+    
+}
+.section5-1 h2{
+   color: #000;
+   padding-bottom: 20px;
+}
+.section5-1 p{
+   padding-bottom: 10px;
+   line-height: 30px;
+   
+}
+.section5-1 span{
+   display: block;
+   line-height: 17px;
+   padding: 10px 0;
+}
+.section5 a{
+   width: 45%;
+   float: right;
+}
+
+
+
+.section6{
+   font-family: "Alegreya Sans"; 
+   padding: 50px;
+   background-color: #403d38;
+   color: #686868;
+   margin-top: 60px;
+   
+   
+}
+
+ .section6-1 .icon img{
+   width:25px;
+   
+   
+}
+ .section6-1 .icon{
+   display: inline-block;
+   vertical-align: middle;
+
+   
+  
+   
+ }
+.section6 div.section6-1{
+   width: 25%;
+  float: left;
+  
+   
+}
+
+.section6 ul{
+   list-style: none;
+}
+.section6 p{
+   
+   padding-top: 15px;
+   line-height: 20px;
+   
+   
+}
+.section6 h4{
+   font-size: 18px;
+   color: white;
+}
+.section6 .list h4{
+   margin-left: 35px;
+   padding-bottom: 20px;
+   
+}
+.section6 li{
+   padding: 10px 0;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.section6 a{
+   text-decoration: none;
+   color: #686868;
+}
+.section6 a:hover{
+   color: aliceblue;
+}
+footer{
+       background-color: #353330;
+   text-align: center;
+   padding: 100px 0;
+}
+
+ footer .icon img{
+   width:40px;
+   
+   
+}
+ footer .icon{
+   display: inline-block;
+   background-color: #403d38;
+   vertical-align: middle;
+   border: 1px solid rgba(0, 0, 0, .15);
+   border-radius: 100%;
+   padding:5px;
+   margin-right: 5px;
+  
+   
+ }
+
+
+footer span{
+   padding: 5px;
+}
+footer p{
+   padding: 15px 0;
+}

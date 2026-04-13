@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+
+        <div class="container my-5 ">
+            <div class="row d-flex justify-content-center align-items-center">
+
+                
+                
+                <div class="box LoginBox w-75  text-center p-5 my-3">
+                    <h1 >Smart Login System</h1>
+                    <form>
+                        <input oninput="input(this)" id="loginEmail" type="email" class="form-control my-3 bg-transparent" placeholder="Enter Your Email">
+                        <div class="passwordBox position-relative d-flex align-items-center">
+                        <input oninput="inputPassword(this)" id="loginPassword" type="password" class="form-control my-3 bg-transparent" placeholder="Enter Your Password">
+                        <i class="fa-solid fa-eye passwordToggle position-absolute end-0 me-3 d-none "></i>           
+                         </div>
+                        <p class="loginStatus"></p>
+                        <button type="button"  class="loginbtn w-100 my-2 btn btn-outline-info">Login</button>
+                    </form>
+                    <p class="my-3 text-white">
+                        Don’t have an account? <a href="signUp.html" id="signUp" class=" text-decoration-none text-white">Sign Up</a>
+                        
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <script src="js/index.js"></script>
+</body>
+</html>

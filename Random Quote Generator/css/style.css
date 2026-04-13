@@ -1,0 +1,43 @@
+body{
+animation-name: animate;
+animation-duration: 2s;
+}
+@keyframes animate{
+  0%{
+    margin-left: -500px;
+  }
+  100%{
+    margin-right: 0;
+  }
+}
+h1{
+  font-size: 80px;
+  font-family: Impact;
+  text-shadow: 0 0 15px gray;
+}
+p{
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  animation-name: animate2;
+  animation-duration: 2s;
+}
+@keyframes animate2{
+  0%{
+    margin-left: -100%;
+  }
+  100%{
+    margin-right: 0;
+  }
+}
+button{
+  width: 250px;
+    height: 80px;
+  transition: all .3s;
+  color: white;
+  background-color: blue;
+}
+button:hover{
+  background-color: teal !important;
+}
+

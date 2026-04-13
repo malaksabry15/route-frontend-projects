@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="loading position-fixed top-0 start-0 end-0 bottom-0 bg-black justify-content-center align-items-center" style="display: none;">
+        <i class="fa fa-spinner fa-spin fa-5x"></i>
+    </div>
+
+
+
+
+<div class="sidebar bg-light d-flex ">
+    <div class="side-menu w-75 h-100 bg-black d-flex flex-column justify-content-between  ">
+        <ul class="py-2 " >
+            <li onclick="searchInputs();closeSidebar()"  >
+                Search
+            </li>
+            <li onclick="getCategory();closeSidebar()">
+                Category
+            </li>
+            <li onclick="getArea();closeSidebar()">Area</li>
+            <li onclick="getIngredients();closeSidebar()">ingredients</li>
+            <li onclick="showContacts();closeSidebar()">Contact Us</li>
+        </ul>
+        
+        <div class="footer py-4 px-3 ">
+            <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+            <p>Copyright Â© 2019 All Rights
+Reserved.</p>
+        </div>
+
+    </div>
+    <div class=" header-bar w-25 h-100 d-flex flex-column justify-content-between align-items-center py-3 ">
+
+        <img src="images/logo.png" alt="logo" style="width: 50px;">
+
+        <i class="bar fa-solid fa-bars fa-2x text-black"></i>
+        <div>
+                <i class="fa-solid fa-globe d-block text-black"></i>
+                <i class="fa-solid fa-share-nodes text-black"></i>
+            </div>
+    </div>
+
+</div>
+
+<div class="container">
+    <div class="row" id="search" >
+      
+    </div>
+</div>
+
+<div class="container">
+    <div class="row g-3 ps-3 py-4" id="rowData">
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    
+</body>
+</html>

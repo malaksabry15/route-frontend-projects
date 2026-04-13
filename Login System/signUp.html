@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+
+
+        <div class="container my-5 ">
+            <div class="row d-flex justify-content-center align-items-center">
+
+                
+                
+                
+                <div class="box SignUpBox w-75  text-center p-5 ">
+                    <h1 >Smart Login System</h1>
+                    <form>
+                        <input oninput="SignUpValidation(this)" id="signName" type="text" class="form-control my-3 bg-transparent " placeholder="Enter Your Name">
+                        <input oninput="SignUpValidation(this)" id="signEmail" type="email" class="form-control my-3 bg-transparent" placeholder="Enter Your Email">
+                        
+                        <input oninput="SignUpValidation(this)" id="signPassword" type="password" class="form-control my-3 bg-transparent" placeholder="Enter Your Password">
+                        <p class="signUpStatus"></p>
+                        <button type="button" class="signupBtn w-100 my-2 btn btn-outline-info">Sign Up</button>
+                    
+                    </form>
+                    <p class="my-3 text-white">
+                        You have an account? <a href="index.html" id="signIn" class=" text-decoration-none text-white">Sign In</a>
+                        
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/signUp.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body{
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+.box{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.navbar-collapse{
+   justify-content: flex-end;
+}
+input{
+    color: aliceblue;
+   
+}
+button{
+    transition: all .3s;
+}
+button:hover{
+    color: aliceblue !important;
+}
+a{
+    transition: all .3s;
+}
+a:hover{
+    text-decoration: underline !important;
+}
+
+input::placeholder {
+  color: #ced4da !important;
+}
+h1{
+    color: #17a2b8;
+}
+nav a:hover{
+    text-decoration: none !important;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+
+@media (max-width:992px) {
+    .logoutBtn{
+        width: 100%;
+    }
+}
+

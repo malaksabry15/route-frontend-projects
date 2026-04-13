@@ -1,0 +1,108 @@
+body{
+        background: #1e202b;
+        font-family: "Roboto", sans-serif;
+        color: aliceblue;
+}
+
+.navbar{
+
+    background: #1e202b !important;
+    
+    
+    
+}
+.logo img{
+    width: 64px;
+    height: 38px;
+}
+.logo small{
+    font-size: 10px;
+    color: #bfc1c8;
+}
+.nav-link.active{
+    border:2px solid #09c;
+    border-radius: 20px;
+    
+    margin-top: 8px;
+    color: #09c !important;
+    
+}
+.nav-item{
+    margin-inline: 10px;
+}
+
+.nav-link,.menu-icon{
+    
+    margin-top: 8px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: all .3s;
+}
+.nav-link:hover,.menu-icon:hover{
+    border:2px solid #09c;
+    color: #09c !important;
+    
+}
+
+.section1{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+ input{
+        background: #1e202b;
+        color: #fff;
+        outline: none;
+}
+
+
+.location button{
+    right: 20px;
+    top: 5px;
+    bottom: 5px;
+
+}
+.cards{
+    margin-top: -80px;
+    position: relative;
+    
+}
+
+.subscribe button{
+    right: 10px;
+    top: 5px;
+    bottom: 5px;
+
+}
+
+.forecast{
+    background: #323544;
+}
+.forecast .header{
+        background: rgba(0, 0, 0, 0.1);
+}
+.forecast h1{
+    font-size: 80px;
+}
+
+footer{
+        background: #262936;
+        padding-bottom: 30px;
+}
+footer .icons i{
+    background: #1e202b;
+    color: #009ad8;
+    width: 35px;
+    height: 35px;
+    transition: all .3s;
+    
+}
+footer .icons i:hover{
+    background-color: #009ad8;
+    color: #fff;
+}
+
+p{
+    margin-block: auto;
+}

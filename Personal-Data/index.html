@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Data</title>
+  </head>
+  <body>
+    <form>
+      <fieldset  style="background-color: #8b0000">
+        <legend style="background-color: #578fca">Personal Data</legend>
+        <br />
+        <br />
+        <fieldset style="background-color: #ffa725">
+          <legend style="background-color: #9ec6f3 ; "><br/><br/>Your Name<br/><br/><br/></legend>
+          <table>
+            <tr>
+              <td><label for="FN">First Name</label></td>
+              <td>:</td>
+              <td rowspan="2">
+                <input
+                  id="FN"
+                  placeholder="ex ahmed"
+                  name="FirstName"
+                  type="text"
+                /><br />
+                <input
+                  id="LN"
+                  placeholder="ex bahnasy"
+                  name="LastName"
+                  type="text"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="LN">Second Name</label></td>
+              <td>:</td>
+            </tr>
+          </table>
+        </fieldset>
+        <br />
+        <br />
+        <table>
+          <tr>
+            <td><label for="phone">Your Phone </label></td>
+            <td>:</td>
+            <td rowspan="4">
+              <input id="phone" name="phone" type="tel" /><br />
+              <input id="Email" name="Email" type="email" /><br />
+              <input id="pass" name="password" type="password" /><br />
+              <input id="re pass" name="re-password " type="password" />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="Email">Email </label></td>
+            <td>:</td>
+          </tr>
+
+          <tr>
+            <td><label for="pass">Password</label></td>
+            <td>:</td>
+          </tr>
+
+          <tr>
+            <td><label for="re pass">Re-password </label></td>
+            <td>:</td>
+          </tr>
+        </table>
+        <br />
+        <br />
+        <table>
+          <tr>
+            <td>
+              <input name="gender" id="gender" type="radio" value="male" />
+            </td>
+            <td><label for="gender">Male</label></td>
+          </tr>
+          <br />
+          <tr>
+            <td>
+              <input name="gender" id="gender" type="radio" value="female" />
+            </td>
+            <td><label for="gender">Female</label></td>
+          </tr>
+        </table>
+        <br />
+
+        <table>
+          <tr>
+            <td>
+              <input
+                name="status"
+                id="status"
+                type="checkbox"
+                value="student"
+              />
+            </td>
+            <td><label for="status">student</label></td>
+          </tr>
+
+          <tr>
+            <td>
+              <input
+                name="status"
+                id="status"
+                type="checkbox"
+                value="graduated"
+              />
+            </td>
+            <td><label for="status">Graduated</label></td>
+          </tr>
+        </table>
+        <br />
+
+        <table>
+          <tr>
+            <td>
+              <select name="university">
+                <optgroup label="option1">
+                  <option>AUC</option>
+                  <option>Cairo</option>
+                  <option>Helwan</option>
+                </optgroup>
+                <optgroup label="option2">
+                  <option>Aswan</option>
+                  <option>banha</option>
+                  <option>MTI</option>
+                </optgroup>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              
+              <button  style="background: none; border: none; " >
+                <img
+                  src="images/1u2PSi-submit-button-free-download.png"
+                  alt="Submit"
+                  width="70px"
+                />
+              </button>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
